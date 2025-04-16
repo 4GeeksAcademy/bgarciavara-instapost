@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* =========================
+     ESTILOS DEL BODY
+  ========================= */
+  body {
+    background: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+  }
+  
+  /* =========================
+     CONTENEDOR DEL POST
+  ========================= */
+  .post {
+    width: 600px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* =========================
+     CABECERA DEL POST
+  ========================= */
+  .post-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #efefef;
+  }
+  
+  .post-header .icon-css {
+    font-size: 24px;
+    margin-right: 12px;
+    color: #3897f0; /* color azul distintivo */
+  }
+  
+  .post-header .text {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #262626;
+    line-height: 1.2;
+  }
+  
+  .post-header .punto {
+    font-size: 24px;
+    color: #262626;
+  }
+  
+  /* =========================
+     IMAGEN DEL POST
+  ========================= */
+  .post-img {
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+  }
+  
+  .post-img img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* =========================
+     CUERPO DEL POST
+  ========================= */
+  .post-body {
+    padding: 16px;
+  }
+  
+  .post-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .post-icon span {
+    font-size: 24px;
+    color: #262626;
+    margin-right: 12px;
+  }
+  
+  /* El ícono de bookmark se empuja a la derecha */
+  .post-icon .save {
+    margin-left: auto;
+  }
+  
+  .post-body p {
+    font-size: 14px;
+    color: #262626;
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+  
+  .post-body strong {
+    font-weight: bold;
+  }
+  
